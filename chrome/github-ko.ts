@@ -77,7 +77,7 @@ const 번역목록 = [
     번역("0100C", "#forgot_password_form input[name=email]", [[/Enter your email address/, "이메일을 여기 적으세요"]], 바탕값변환),
     번역("0100D", "#forgot_password_form input[type=submit]", [[/Send password reset email/, "비밀번호 초기화 이메일 보내기"]], 인풋값변환),
     번역("0300A", "form.js-site-search-form input[name=q]", [[/Search or jump to/, "검색 또는 바로가기"]], 바탕값변환),
-    번역("0300B", "header nav a", [[/Pull requests/, "풀리퀘"], [/Issues/, "이슈"],
+    번역("0300B", "header nav a", [[/Pull requests/, "풀 리퀘스트"], [/Issues/, "이슈"],
         [/Marketplace/, "마켓"], [/Explore/, "탐색"],
         [/Dashboard/, "대시보드"], [/Sign out/, "로그아웃"]]),
     번역("0300B", "header nav button", [[/Sign out/, "로그아웃"]]),
@@ -115,6 +115,8 @@ const 번역목록 = [
     번역("0400I", "#dashboard button", [[/Follow/, "팔로우"], [/Star/, "스타"], [/Unstar/, "스타취소"]]),
     번역("0400J", "aside.team-left-column h2", [[/Explore repositories/, "추천 저장소"]]),
     번역("0400K", "aside.team-left-column a", [[/Explore more/, "더 살펴보기"]]),
+	번역("0400L", ".dashboard-feed", [[/introduce yourself/, "자기소개를 해보세요"]]),
+
 	번역("0400L", ".dashboard-sidebar h2", [[/Working with a team/, "팀과 일하시겠습니까"]]),
 	번역("0400M", ".dashboard-sidebar p", [[/GitHub is built for collaboration. Set up an organization to improve the way your team works together, and get access to more features./, "GitHub는 협업을 위해 만들어졌습니다. 팀이 함께 일하는 방식을 개선하고 더 많은 기능에 액세스할 수 있도록 조직을 설정합니다."]]),
 	번역("0400M", ".dashboard-sidebar a", [[/Create an organization/, "조직 만들기"]]),
