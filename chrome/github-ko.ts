@@ -404,7 +404,7 @@ chrome.runtime.onMessage.addListener(function (message, sender, response) {
     // console.log("got message", message);
     if (message.action == "onCompleted") {
         setTimeout(번역하기, 0);
-		setInterval(번역하기, 60000);
+		setInterval(번역하기, 10000);
     }
     response("done");
 });
